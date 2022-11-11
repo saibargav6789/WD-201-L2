@@ -1,0 +1,74 @@
+body{
+    background-color: bisque;
+}
+h2{
+    text-align: center;
+}
+hr{
+    width: 25%;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    border: dotted -1px ;
+    border-radius: 30px; 
+}
+
+#btn {
+    margin-top: 30px;
+    font-size:23px;
+    font-family:Times New Roman;
+    width:111px;
+    height:39px;
+    border-width:1px;
+    color:#fff;
+    border-color:#18ab29;
+    font-weight:bold;
+    font-style:italic;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px #2f6627;
+    background:rgba(66, 199, 207, 1);
+    float:left;
+  }
+  
+#btn:hover {
+    background: rgba(40, 156, 150, 1)
+  } 
+.container{ 
+    margin: 0 auto; 
+    width:250px;
+    }
+.form {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    margin: auto;
+    font-size: 20px;
+  }
+  input{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 250px;
+    height: 25px;
+  }
+  #acceptTerms{
+    height: 15px;
+    width: 20px;
+
+  }
+  .table {
+    border: 2px solid brown;
+    margin: 2.5rem auto;
+  }
+  
+  .td,.th {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .subHead {
+    text-align: center;
+    margin-top: 32px;
+  }
