@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sample form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='register.css'>
+    <script src='register.js' defer></script>
+</head>
+<body>
+    <h2 >Registration Form</h2>
+    <hr>
+    <div class="container">
+        <form class="form" id="form">
+            <label for="name">
+                Name:<br>
+                <input type="text" id="name" required>
+            </label><br>
+            <label for="email">
+                Email ID:<br>
+                <input type="email" id="email" >
+            </label><br>
+            <label for="password">
+                Password:<br>
+                <input type="password" id="password" required>
+            </label><br>
+            <label for="dob">
+                Date Of Birth :<br>
+                <input type="date" id="dob" required>
+            </label><br>
+            <label for="acceptTerms">
+                <input type="checkbox" id="acceptTerms" >
+                I Agree to all terms and conditions..
+            </label><br>
+            <button id="btn" type="submit">submit</button>
+
+        </form>
+    </div>
+    <div class="entry">
+        <h2 class="Head">Entries</h2>
+        <div id="table"></div>
+      </div>
+</body>
+</html>
